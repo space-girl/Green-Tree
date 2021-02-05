@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Surprise</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 id="btn">FUCK</h1>
+
+     <script>
+         
+         var btn = document.getElementById("btn");
+         btn.onclick = function(){
+         if(btn.classList.contains("neon")){
+             btn.classList.remove("neon");
+             btn.innerHTML = "FUCK";
+         }
+           else{
+               btn.classList.add("neon");
+               btn.innerHTML = "YOU";
+           }
+
+
+         }
+
+
+     </script>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
